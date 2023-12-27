@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>huiswerk les 25</title>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#verberg").click(function() {
+$("p").hide();
+});
+$("#toon").click(function() {
+$("p").show();
+});
+});
+</script>
+<style type="text/css">
+#verberg{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+#toon{
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+</style>
+</head>
+<body>
+  <button id="verberg">Verberg en zie niks</button>
+  <button id="toon">Bekijk het huiswerk opdracht van een 10</button>
+  <p>Zoals je kunt zien staat hieronder afbeelding van een 10<br>
+    <img src="10.png" alt="de cijfer 10">
+  </p>
+  <noscript>
+  Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+  </noscript>
+</body>
+</html>
